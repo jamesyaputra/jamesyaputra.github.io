@@ -236,6 +236,7 @@ header {
 }
 
 footer {
+    background: $background;
     padding: 50px 0;
 }
 
@@ -812,7 +813,7 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid $border;
-    background: #E7F2FE;
+    background: $background;
     text-align: left;
 
     h3 {
