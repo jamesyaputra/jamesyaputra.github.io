@@ -34,19 +34,19 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #3dc0e0;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
-$background-alt: #f2f2f5;
+$background: #0D1A2D;
+$background-alt: #1A2A43;
 
 // Define border colors
-$border: #dcd9d9;
+$border: #0D1A2D;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #E7F2FE;
+$text: #919FB9;
 
 /*
     ---------------------
@@ -294,15 +294,15 @@ footer {
 
 .btn-rounded-white {
     display: inline-block;
-    color: #fff;
+    color: #E7F2FE;
     padding: 15px 25px;
-    border: 3px solid #fff;
+    border: 3px solid #E7F2FE;
     border-radius: 30px;
     @include transition();
 
     &:hover {
         color: $base-color;
-        background: #fff;
+        background: #E7F2FE;
         text-decoration: none;
     }
 }
@@ -369,7 +369,7 @@ footer {
     }
 
     h1 {
-        color: #fff;
+        color: #E7F2FE;
         font-weight: 900;
         font-size: 5em;
         text-transform: uppercase;
@@ -405,7 +405,7 @@ footer {
     text-align: center;
     z-index: 10;
     bottom: 15px;
-    color: #fff;
+    color: #E7F2FE;
 
     span {
         cursor: pointer;
@@ -447,6 +447,7 @@ footer {
 
 #about {
     padding: 75px 15px;
+    background: $background;
     border-bottom: 1px solid $border;
 
     h2 {
@@ -507,8 +508,8 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
-    border: 1px solid #e6e6e6;
+    background: $background;
+    border: 1px solid $border;
     padding: 15px;
     border-radius: 3px;
     text-align: left;
@@ -524,7 +525,7 @@ footer {
     h4 {
         font-size: 1.2em;
         font-weight: 300;
-        color: #7e8890;
+        color: #3dc0e0;
         margin: 0 0 15px 0;
     }
 
@@ -544,7 +545,7 @@ footer {
 
 .vtimeline-icon {
     position: relative;
-    color: #fff;
+    color: #E7F2FE;
     width: 50px;
     height: 50px;
     background: $base-color;
@@ -567,7 +568,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054;
+    color: $base-color;
 }
 
 /*
@@ -578,6 +579,7 @@ footer {
 
 #education {
     padding: 50px 15px 20px 15px;
+    background: $background;
     border-bottom: 1px solid $border;
     text-align: center;
 
@@ -590,6 +592,7 @@ footer {
 .education-block {
     max-width: 700px;
     margin: 0 auto 30px auto;
+    background: $background-alt;
     padding: 15px;
     border: 1px solid $border;
     text-align: left;
@@ -607,7 +610,7 @@ footer {
     }
 
     h4 {
-        color: $text;
+        color: #3dc0e0;
         clear: both;
         font-weight: 500;
         margin: 0 0 15px 0;
@@ -646,7 +649,7 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
+    background: $background;
     border-radius: 4px;
 }
 
@@ -696,6 +699,7 @@ footer {
 
 #skills {
     padding: 50px 15px;
+    background: $background;
     text-align: center;
 
     h2 {
@@ -715,7 +719,7 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: darken($background-alt, 5%);
+        background: $background-alt;
         list-style: none;
         cursor: default;
         font-size: 1.2em;
@@ -735,7 +739,7 @@ footer {
 
     h2 {
         margin: 0 0 15px 0;
-        color: #fff;
+        color: #E7F2FE;
         font-weight: 500;
     }
 }
@@ -752,10 +756,10 @@ footer {
         border: none;
         margin-bottom: 10px;
         background: darken($base-color, 15%);
-        color: #fff;
+        color: #E7F2FE;
         @include transition();
         @include placeholder {
-            color: #fff;
+            color: #E7F2FE;
         }
 
         &:focus {
@@ -772,7 +776,7 @@ footer {
     button {
         display: block;
         width: 100%;
-        background: #fff;
+        background: #E7F2FE;
         border-radius: 4px;
         padding: 5px 10px;
         border: none;
@@ -808,7 +812,7 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid $border;
-    background: #fff;
+    background: #E7F2FE;
     text-align: left;
 
     h3 {
@@ -971,6 +975,7 @@ footer {
     }
 
     footer {
+        background: $background;
         text-align: center;
     }
 
